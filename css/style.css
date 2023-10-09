@@ -1,0 +1,181 @@
+body {
+    background: black;
+}
+
+
+.bg-sena{
+    background-color:darkcyan;
+}
+
+#carouselHeroCaptions p{
+    color:white;
+}
+#carouselHeroCaptions h5{
+    color: white;
+}
+
+nav{
+    position: fixed !important;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo{
+   width: 67px;
+   position: absolute;
+   padding: 10px;
+}
+
+.form-control{
+    background:  darkcyan;
+}
+
+
+#nosotros{
+    width: 100%;
+    position: relative;
+    padding: 150px 0;
+}
+
+#nosotros img{
+    width: 500px;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#nosotros h1{
+    color: darkcyan;
+    padding-top: 50px;
+    font-size: 50px;
+    border-bottom: 2px solid darkcyan;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+#nosotros a{
+    padding: 14px 40px;
+    background: darkcyan;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    margin-top: 60px;
+    max-width: 200px;
+    text-align: center;
+    transition: .5s;
+}
+
+#nosotros a:hover{
+    background: darkcyan;
+    border-radius: 15px;
+    max-width: 250px;
+    
+}
+
+#servicios{
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+#servicios h2{
+    color: darkcyan;
+    font-size: 36px;
+    border-bottom: 2px solid darkcyan;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+#servicios h2 span{
+    font-size: 54px;
+}
+
+#servicios .card-servicio{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 30px;
+ 
+
+}
+
+#servicios .card-servicio::after{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, 0.61);
+    transition: .5s;
+}
+
+#servicios .card-servicio a{
+    color: darkcyan;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 250px;
+    text-align: center;
+    transition: .5s;
+}
+
+#servicios .card-servicio:hover a{
+    background: rgba(0, 0, 0, 0.384);
+    color: rgb(255, 255, 255);
+    bottom: 78%;
+}
+
+#servicios .card-servicio:hover::after{
+    background: rgba(0, 0, 0, 0.205);
+}
+
+#contacto{
+    width: 100%;
+    position: relative;
+    padding: 80px 0;
+    
+}
+
+#contacto h2 {
+    color: darkcyan;
+}
+#contacto .btn{
+    background: darkcyan;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    text-decoration: none;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+    transition: .5s;
+}
+
+#contacto .btn:hover{
+    background: darkcyan;
+    border-radius: 15px;
+    max-width: 500px;
+}
+
+footer{
+    background: darkcyan;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    text-align: center;
+}
+
+
